@@ -1,0 +1,7 @@
+=== Red neuronal profunda (NumPy) – detección de fraude ===
+Arquitectura: 13-64-32-16-1 | épocas: 37 (mejor: 22)
+ROC-AUC: 0.828 | PR-AUC: 0.271 | umbral: 0.501
+Matriz de confusión:
+ [[4053  806]
+ [  47   94]]
+Recall fraude: 0.667 | Precisión fraude: 0.104

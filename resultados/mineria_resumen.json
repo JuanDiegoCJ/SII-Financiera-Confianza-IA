@@ -1,0 +1,57 @@
+{
+  "casos": 3000,
+  "eventos": 21045,
+  "fitness": 0.9432166666666667,
+  "conformes": 0.877,
+  "desviados": 369,
+  "fraude_desviados": 0.2222222222222222,
+  "fraude_conformes": 0.008361839604713038,
+  "ciclo_medio_dias": 3.1481800386202314,
+  "ciclo_p90": 5.779429855478008,
+  "cuellos": [
+    [
+      "Consultar buró de crédito",
+      "Evaluar en campo",
+      29.901400447881013
+    ],
+    [
+      "Solicitar documentos",
+      "Evaluar en campo",
+      29.81574916236883
+    ],
+    [
+      "Evaluar en campo",
+      "Aprobar en comité",
+      29.600899466924492
+    ]
+  ],
+  "top_asesores": {
+    "ASE15": 0.291,
+    "ASE07": 0.27,
+    "ASE08": 0.167,
+    "ASE01": 0.15,
+    "ASE12": 0.142
+  },
+  "variantes": [
+    [
+      "Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Aprobar en comité > Firmar contrato > Desembolsar",
+      2030
+    ],
+    [
+      "Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Solicitar documentos > Evaluar en campo > Aprobar en comité > Firmar contrato > Desembolsar",
+      360
+    ],
+    [
+      "Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Aprobar en comité > Rechazar",
+      241
+    ],
+    [
+      "Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Firmar contrato > Desembolsar",
+      165
+    ],
+    [
+      "Registrar solicitud > Consultar buró de crédito > Evaluar en campo > Aprobar en comité > Firmar contrato > Desembolsar",
+      139
+    ]
+  ]
+}

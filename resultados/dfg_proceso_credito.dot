@@ -1,0 +1,30 @@
+digraph DFG {
+rankdir=LR; dpi=200; nodesep=0.35; ranksep=0.45;
+node [shape=box style="rounded,filled" fillcolor="#eef3fa" fontname=Helvetica fontsize=11];
+edge [fontname=Helvetica fontsize=9];
+INICIO [shape=circle fillcolor="#d5f5e3" label=""];
+FIN [shape=doublecircle fillcolor="#fadbd8" label=""];
+"Rechazar" [label="Rechazar"];
+"Evaluar en campo" [label="Evaluar en\ncampo"];
+"Validar identidad (RENIEC/biometría)" [label="Validar\nidentidad\n(RENIEC/biometría)"];
+"Desembolsar" [label="Desembolsar"];
+"Consultar buró de crédito" [label="Consultar buró\nde crédito"];
+"Solicitar documentos" [label="Solicitar\ndocumentos"];
+"Registrar solicitud" [label="Registrar\nsolicitud"];
+"Firmar contrato" [label="Firmar\ncontrato"];
+"Aprobar en comité" [label="Aprobar en\ncomité"];
+"INICIO" -> "Registrar solicitud" [label="3000" penwidth=4.10 color="#34495e" fontcolor="#34495e"];
+"Desembolsar" -> "FIN" [label="2759" penwidth=3.82 color="#34495e" fontcolor="#34495e"];
+"Registrar solicitud" -> "Validar identidad (RENIEC/biometría)" [label="2796\n1.9 h" penwidth=3.86 color="#34495e" fontcolor="#34495e"];
+"Validar identidad (RENIEC/biometría)" -> "Consultar buró de crédito" [label="2796\n1.0 h" penwidth=3.86 color="#34495e" fontcolor="#34495e"];
+"Consultar buró de crédito" -> "Evaluar en campo" [label="3000\n29.9 h" penwidth=4.10 color="#34495e" fontcolor="#34495e"];
+"Evaluar en campo" -> "Aprobar en comité" [label="2770\n29.6 h" penwidth=3.83 color="#34495e" fontcolor="#34495e"];
+"Aprobar en comité" -> "Firmar contrato" [label="2529\n7.9 h" penwidth=3.55 color="#34495e" fontcolor="#34495e"];
+"Firmar contrato" -> "Desembolsar" [label="2759\n4.0 h" penwidth=3.82 color="#34495e" fontcolor="#34495e"];
+"Registrar solicitud" -> "Consultar buró de crédito" [label="204\n1.0 h" penwidth=0.84 color="#c0392b" fontcolor="#c0392b"];
+"Evaluar en campo" -> "Firmar contrato" [label="230\n8.7 h" penwidth=0.87 color="#c0392b" fontcolor="#c0392b"];
+"Evaluar en campo" -> "Solicitar documentos" [label="360\n5.6 h" penwidth=1.02 color="#34495e" fontcolor="#34495e"];
+"Solicitar documentos" -> "Evaluar en campo" [label="360\n29.8 h" penwidth=1.02 color="#34495e" fontcolor="#34495e"];
+"Rechazar" -> "FIN" [label="241" penwidth=0.88 color="#34495e" fontcolor="#34495e"];
+"Aprobar en comité" -> "Rechazar" [label="241\n2.9 h" penwidth=0.88 color="#34495e" fontcolor="#34495e"];
+}

@@ -1,0 +1,36 @@
+{
+  "roc_auc": 0.8276693537910931,
+  "pr_auc": 0.18636240946147906,
+  "matriz": [
+    [
+      4001,
+      858
+    ],
+    [
+      47,
+      94
+    ]
+  ],
+  "importancias": {
+    "canal_app": 0.015081106984712172,
+    "intentos_login_fallidos": 0.02516168921658575,
+    "plazo_meses": 0.026195756796703756,
+    "hora_operacion": 0.042507309170623855,
+    "dispositivo_nuevo": 0.05044785238832707,
+    "dias_apertura_cuenta": 0.06121890993801166,
+    "monto_desembolso": 0.06575835423923225,
+    "creditos_previos": 0.06808785835338224,
+    "distancia_agencia_km": 0.08335906664947118,
+    "antiguedad_cliente_meses": 0.11675870378888395,
+    "score_buro": 0.1277555592374093,
+    "cambio_telefono_30d": 0.15239936490225217,
+    "abono_cuenta_tercero": 0.16526846833440467
+  },
+  "ejemplo": {
+    "id_operacion": "OP-DEMO-001",
+    "probabilidad_fraude": 0.792,
+    "nivel": "ALTO",
+    "accion": "RETENER_DESEMBOLSO_Y_ALERTAR",
+    "modelo": "RF-v1"
+  }
+}

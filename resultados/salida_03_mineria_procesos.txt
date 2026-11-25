@@ -1,0 +1,27 @@
+Log: 3000 casos, 21045 eventos, 9 actividades
+
+Variantes más frecuentes:
+   2030 casos (67.7%): Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Aprobar en comité > Firmar contrato > Desembolsar
+    360 casos (12.0%): Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Solicitar documentos > Evaluar en campo > Aprobar en comité > Firmar contrato > Desembolsar
+    241 casos (8.0%): Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Aprobar en comité > Rechazar
+    165 casos (5.5%): Registrar solicitud > Validar identidad (RENIEC/biometría) > Consultar buró de crédito > Evaluar en campo > Firmar contrato > Desembolsar
+    139 casos (4.6%): Registrar solicitud > Consultar buró de crédito > Evaluar en campo > Aprobar en comité > Firmar contrato > Desembolsar
+
+Fitness promedio del log: 0.943
+Casos conformes: 87.7%
+Casos desembolsados con controles omitidos: 369
+Asesores con mayor tasa de desviación:
+ recurso
+ASE15    0.291
+ASE07    0.270
+ASE08    0.167
+ASE01    0.150
+ASE12    0.142
+
+Cuellos de botella (espera media):
+  Consultar buró de crédito -> Evaluar en campo: 29.9 h
+  Solicitar documentos -> Evaluar en campo: 29.8 h
+  Evaluar en campo -> Aprobar en comité: 29.6 h
+
+Tasa de fraude con controles omitidos: 22.2% | sin omisiones: 0.8%
+Tiempo de ciclo medio: 3.1 días | P90: 5.8 días

@@ -1,0 +1,37 @@
+[whatsapp] Usuario: Hola buenas tardes
+[whatsapp] Bot    : ¡Hola! Soy el asistente de Financiera Confianza. ¿En qué te ayudo?
+
+[whatsapp] Usuario: cuanto debo pagr este mes?
+[whatsapp] Bot    : Para proteger tus datos necesito validar tu identidad. Escribe tu DNI.
+
+[whatsapp] Usuario: mi dni es 45879632
+[whatsapp] Bot    : Te envié un código por SMS al celular terminado en 321. Escríbelo aquí.
+
+[whatsapp] Usuario: 4821
+[whatsapp] Bot    : Identidad validada. Tu cuota N.° 7 de Crédito Emprendedor es de S/ 612.30 y vence el 2026-12-05.
+
+[whatsapp] Usuario: y como va mi solicitud?
+[whatsapp] Bot    : Tu solicitud SOL-20262871 está: EN EVALUACIÓN DE CAMPO (actualizado el 2026-11-23).
+
+[whatsapp] Usuario: no reconozco un desembolso que me llegó
+[whatsapp] Bot    : Registré tu reporte con el ticket F-00001 y lo derivé a la Unidad de Prevención de Fraudes, que te llamará en los próximos minutos. Nunca te pediremos tu clave.
+
+[web] Usuario: a que hora abren en trujillo
+[web] Bot    : Agencia Trujillo: Av. España 1234, Trujillo. Horario: L-V 9:00-18:00, S 9:00-13:00.
+
+[web] Usuario: el clima de mañana
+[web] Bot    : No estoy seguro de haber entendido. ¿Deseas que te comunique con un asesor?
+
+[whatsapp] Usuario: gracias
+[whatsapp] Bot    : ¡Gracias por escribirnos! Que tengas un buen día.
+
+Registro de auditoría:
+   ('whatsapp', 'saludo', 0.925)
+   ('whatsapp', 'consultar_cuota', 0.719)
+   ('whatsapp', 'autenticacion', 1.0)
+   ('whatsapp', 'autenticacion', 1.0)
+   ('whatsapp', 'estado_solicitud', 0.792)
+   ('whatsapp', 'reportar_fraude', 0.716)
+   ('web', 'agencias', 0.769)
+   ('web', 'no_entendido', 0.183)
+   ('whatsapp', 'despedida', 0.767)
